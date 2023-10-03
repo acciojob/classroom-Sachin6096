@@ -81,8 +81,6 @@ public class StudentRepository {
 
     public void deleteAllTeachers() {
 
-
-
         for(String s : studentTeacherMap.keySet())
         {
             studentHashMap.remove(s);
