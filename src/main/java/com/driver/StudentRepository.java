@@ -78,7 +78,7 @@ public class StudentRepository {
         teacherHashMap.remove(teacher);
 
     }
-
+ //new
     public void deleteAllTeachers() {
 
         for(String s : studentTeacherMap.keySet())
